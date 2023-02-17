@@ -175,7 +175,7 @@ def CommandPrompt():
 def River():
     if not dpg.does_alias_exist("riverW"):
         with dpg.window(label="River", tag="riverW", show=False, on_close=RiverClose,
-                        pos=[(dpg.get_viewport_width() // 2) + 355, (dpg.get_viewport_height() // 2) + 80],
+                        pos=[PCwidth/2-300, PCheight/2-200],
                         no_resize=True, no_scrollbar=True, width=600, height=400):
 
             def ShowConversation(sender):
